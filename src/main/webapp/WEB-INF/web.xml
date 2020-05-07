@@ -7,8 +7,9 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/spring/root-context.xml</param-value>
+		<!-- 경로  추가 -->
 		<param-value>classpath:config/context-config002.xml</param-value>
-		<!-- 또는 /WEB.. 있는데 한 번에 넣기 -->
+		<!-- 또는 /WEB.. 있는데에 한 번에 넣기 -->
 	</context-param>
 	
 	<!-- Creates the Spring Container shared by all Servlets and Filters -->

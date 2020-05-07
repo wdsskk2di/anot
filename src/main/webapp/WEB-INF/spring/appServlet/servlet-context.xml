@@ -22,10 +22,14 @@
 	</beans:bean>
 	
 	<!-- 
-	<beans:bean id="testclass" class="com.care.controller.TestClass"/>
-	 -->
+	<beans:bean id="testclass" class="com.care.controller.TestClass"/>	
 	 
 	<context:component-scan base-package="com.care.controller" />	
 	<context:component-scan base-package="com.care.test" />
+	 -->
+	 
+	 <beans:bean id="dao02" class="com.care.dao.TestDAO"/>
+	 
+	<context:component-scan base-package="com.care.*" />
 	
 </beans:beans>

@@ -19,8 +19,7 @@ import com.care.test2.Test02;
 public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-	
-	//
+
 	//@Autowired	//객체 자동 주입. @Controller만들어진 데에서만 사용 가능
 	private TestClass testclass;
 	//@Autowired

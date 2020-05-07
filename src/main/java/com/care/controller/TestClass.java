@@ -9,10 +9,10 @@ import com.care.test.Test;
 
 //@Service //서비스단
 //@Repository //dao
-@Component //단순 객체 생성
+//@Component //단순 객체 생성
 public class TestClass {
 	
-	@Autowired	//servlet-context.xml에 contex추가해야 작동
+	//@Autowired	//servlet-context.xml에 contex추가해야 작동
 	private Test test;
 	
 	public TestClass() {
